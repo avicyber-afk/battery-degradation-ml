@@ -1,0 +1,21 @@
+# Raw MATR data (~10 GB) — download via download_matr.sh
+*.mat
+
+# Large regenerable intermediates
+MATR_augmented.csv
+MATR_battery_summary.csv
+
+# Third-party clone
+BatteryML/
+
+# Build / training artifacts
+__pycache__/
+*.pyc
+catboost_info/
+gru_tuning/
+
+# Logs
+*.log
+*_log.txt
+*_log2.txt
+download_log.txt
